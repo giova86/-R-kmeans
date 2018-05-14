@@ -11,7 +11,7 @@ USArrests
 # data preparation 
 # - remove na
 # - scale value
-my_data <- data %>%
+my_data <- USArrests %>%
     na.omit() %>%
     scale()
 str(my_data)
